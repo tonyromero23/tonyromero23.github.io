@@ -148,7 +148,10 @@ button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center the content */
 }
-
+.resizable-image {
+    max-width: 100%;
+    height: auto;
+ }
 /* Responsive styles */
 @media (max-width: 768px) {
     nav {
