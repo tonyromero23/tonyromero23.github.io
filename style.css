@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f8f9fa;
     color: #495057;
+    font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1920 - 320)));
 }
 
 header {
@@ -22,6 +23,7 @@ section.hero {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 2vw; /* 2% of the viewport width */
 }
 
 h1 {
