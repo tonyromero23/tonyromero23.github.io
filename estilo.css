@@ -148,7 +148,6 @@ button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center the content */
 }
-/* Optional: Add styles for hover effects or active links */
 
 /* Responsive styles */
 @media (max-width: 768px) {
