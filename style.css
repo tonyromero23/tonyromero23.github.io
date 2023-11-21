@@ -1,62 +1,67 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-    color: #495057;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: #343a40;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
+/* BARRA DE ARRIBA Izquierda */
+.nav-arriba {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.nav-arriba a {
+  float: left;
+  color: #bbbbbb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-section.hero {
-    text-align: center;
-    padding: 100px;
-    background-color: #007bff;
-    color: #252525;
-    background-image: url("imagenes/cementerio-de-corrubedo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 2vw; /* 2% of the viewport width */
+/* Change the color of links on hover */
+.nav-arriba a:hover {
+  background-color: #787878;
+  color: rgb(255, 255, 255);
 }
 
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+/* Add a color to the active/current link */
+.nav-arriba a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+/* FIN BARRA DE ARRIBA*/
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+/*MEDIO*/
+.container {
+  /* Set background image */
+  background-image: url("imagenes/cementerio-de-corrubedo.jpg");
+
+  /* Specify background image size */
+  background-size: cover;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* No repeat of the background image */
+  background-repeat: no-repeat;
+
+  /* Set a background color as a fallback */
+  background-color: #f2f2f2;
+
+  /* Specify background attachment behavior (optional) */
+  /* background-attachment: fixed; */
+  /* Set a fixed height for the container */
+  height: 1px;
+
+  /* Apply the blur effect */
+
+  /* Add some padding and margin for better presentation (optional) */
+  padding: 500px;
+  margin: 20px;
 }
 
-p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
-section.features {
-    text-align: center;
-    padding: 50px;
-}
-
-.feature {
-    margin-bottom: 30px;
-}
-
-button {
-    background-color: #717171;
-    color: #fff;
-    padding: 15px 30px;
-    font-size: 1.2em;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #218838;
-}
-@media only screen and (max-width: 600px) {
-    /* Styles for screens up to 600px wide (typical mobile devices) */
-}
+/*FIN DEL MEDIO*/
